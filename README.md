@@ -96,9 +96,9 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 
-Copy the elkserver.yml file to /etc/ansible directory.
-Update the hosts file to include your elk server's ip address.
-Run the playbook, and navigate to the kibana page http://20.85.232.3:5601/app/kibana to check that the installation worked as expected.
+- Copy the `elkserver.yml` file to `/etc/ansible` directory.
+- Update the `hosts` file to include your elk server's ip address.
+- Run the playbook, and navigate to the kibana page 'http://20.85.232.3:5601/app/kibana' to check that the installation worked as expected.
 
 
 

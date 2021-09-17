@@ -8,7 +8,6 @@ The files in this repository were used to configure the network depicted below.
 
 ![alt text](https://github.com/wevertonribeiroferreira/Azure-Virtual-Lab/blob/main/network_diagram.png)
 
-[logo]: https://github.com/wevertonribeiroferreira/Azure-Virtual-Lab/blob/main/network.png "Network Diagram"
 
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
@@ -35,7 +34,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Metricbeat takes the metrics and statistics that it collects and ships them to the output that you specify, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function    | IP Address   | Operating System |
 |----------|-------------|--------------|------------------|
@@ -48,19 +46,21 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 The machines on the internal network are not exposed to the public Internet. 
 
-Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-Machines within the network can only be accessed by _____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+- My personal IP Address.
+
+Machines within the network can only be accessed by Jump Box machine.
+- You can also access the Elk Server through the Jumpbox. (52.186.151.59)
 
 A summary of the access policies in place can be found in the table below.
 
-| Name     | Publicly Accessible | Allowed IP Addresses |
-|----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+| Name      | Publicly Accessible | Allowed IP Addresses |
+|-----------|---------------------|----------------------|
+| Jump-Box  |         Yes         | 10.0.0.1 10.0.0.2    |
+| Elk Server|         Yes         | 10.1.0.4             |
+| Web-1     |         No          |  Static IP Address |
+| Web-2     |         No          |  Static IP Address |
 
 ### Elk Configuration
 

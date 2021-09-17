@@ -57,15 +57,14 @@ A summary of the access policies in place can be found in the table below.
 
 | Name      | Publicly Accessible | Allowed IP Addresses |
 |-----------|---------------------|----------------------|
-| Jump-Box  |         Yes         |       10.0.1.4       |
+| Jump-Box  |         Yes         |       10.0.0.4       |
 | Elk Server|         Yes         |       10.1.0.4       |
 | Web-1     |         No          |   Static IP Address  |
 | Web-2     |         No          |   Static IP Address  |
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_************************
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible lets you model even highly complex IT workflows. You can put together the entire application environment no matter where it's deployed.************************
 
 The playbook implements the following tasks:
 - Install Docker
@@ -77,7 +76,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png) ******************************
+![Docker](https://github.com/wevertonribeiroferreira/Azure-Virtual-Lab/blob/main/elk.PNG) ******************************
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:

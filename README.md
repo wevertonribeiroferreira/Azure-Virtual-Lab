@@ -90,7 +90,7 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 - The Beats gather the logs and metrics from my environment and documents them with essential metadata from hosts, container platforms like Docker, and cloud providers before shipping them to the Elastic Stack. (Example below)
 
-![Image of the Kibana interface](https://github.com/wevertonribeiroferreira/Azure-Virtual-Lab/blob/main/kibana5.PNG)
+![Image of the Kibana interface](https://github.com/wevertonribeiroferreira/Azure-Virtual-Lab/blob/main/Images/kibana5.PNG)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 

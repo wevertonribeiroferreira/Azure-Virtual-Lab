@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 
 
-![alt text](https://github.com/wevertonribeiroferreira/Azure-Virtual-Lab/blob/main/Images/network_diagram.png)
+![alt text](https://github.com/wevertonribeiroferreira/Azure-Virtual-Lab/blob/main/Images/network_diagram1.png)
 
 
 

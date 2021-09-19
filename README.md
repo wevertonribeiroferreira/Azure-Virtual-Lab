@@ -64,7 +64,7 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible lets you model even highly complex IT workflows. You can put together the entire application environment no matter where it's deployed.************************
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because Ansible lets you model even highly complex IT workflows. You can put together the entire application environment no matter where it's deployed.
 
 The playbook implements the following tasks:
 - Install Docker
@@ -76,7 +76,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Docker](https://github.com/wevertonribeiroferreira/Azure-Virtual-Lab/blob/main/Images/elk.PNG) ******************************
+![Docker](https://github.com/wevertonribeiroferreira/Azure-Virtual-Lab/blob/main/Images/elk.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:

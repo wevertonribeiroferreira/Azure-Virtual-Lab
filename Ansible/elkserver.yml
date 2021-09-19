@@ -1,6 +1,6 @@
 ---
 - name: Configure Elk VM with Docker
-  hosts: ELK
+  hosts: elk
   remote_user: azadmin
   become: true
   tasks:

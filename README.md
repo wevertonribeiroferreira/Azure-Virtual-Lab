@@ -40,7 +40,7 @@ The configuration details of each machine may be found below.
 | Jump Box | Gateway     | 104.43.207.88| Linux            |
 | Web-1    | Web Server  | 10.0.0.5     | Linux            |
 | Web-2    | Web Server  | 10.0.0.6     | Linux            |
-| DVWA     | Container   |      -       | Linux            |
+
 
 ### Access Policies
 
